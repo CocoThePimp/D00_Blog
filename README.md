@@ -1,24 +1,38 @@
-# README
+Hello la correction, bienvenue dans ce petit repo, el famoso Ruby on Rails;
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le principe de l'exercice est simple : 
 
-Things you may want to cover:
+Le concept version 2 est le suivant: c'est un super blog où les utilisateurs pourront s'enregistrer, créer des articles, les commenter (sans pouvoir commenter les commentaires), attribuer une catégorie à chaque article et même les liker. 🤯
 
-* Ruby version
 
-* System dependencies
+Pour faire fonctionner tout ça rien de bien compliqué : 
+~~~~~~~~~~~~~~~~~~~~
+$ bundle install
 
-* Configuration
+$ rails db:migrate
 
-* Database creation
+$ rails db:seed
 
-* Database initialization
+$ rails c
 
-* How to run the test suite
+$ tp User.all
 
-* Services (job queues, cache servers, search engines, etc.)
+$ tp Category.all
 
-* Deployment instructions
+$ tp Article.all
 
-* ...
+$ tp Like.all
+~~~~~~~~~~~~~~~~~~~~
+------
+
+par Maxime Hanquier @Maxime Hanquier
+------
+
+&
+par Martin François @tinmar
+------
+
+&
+Xavier Refour @Xavier.Refour
+------
+![](https://sorasenbei.files.wordpress.com/2015/08/86-drift-initial-d.gif)
